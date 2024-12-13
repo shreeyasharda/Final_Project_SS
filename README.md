@@ -5,8 +5,9 @@ The report must effectively communicate what you did for your project in a way t
 Software and hardware requirements
 
 
-**Software**: Python (Version 3.12.2) 
-Hardware used: Macbook Air; Chip: Apple M3; Memory: 8GB; Software Version on Macbook: Version 14.5 (Mac OS Sonoma)
+**Software**: Python (Version 3.12.2)
+
+**Hardware used:** Macbook Air; Chip: Apple M3; Memory: 8GB; Software Version on Macbook: Version 14.5 (Mac OS Sonoma)
 
 **Links to any data sources** 
 Link to Video I used to help me build an outline for the Connect 4 game: https://www.youtube.com/watch?v=UYgyRArKDEs&list=PLFCB5Dp81iNV_inzM-R9AKkZZlePCZdtV
