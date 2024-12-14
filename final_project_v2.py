@@ -69,7 +69,7 @@ def location_check(board, columnVal):
     return board[rows_global - 1][columnVal] == 'X'
 
 # Mark the board with the pieces as they are selected 
-def mark_board(player_pos, board, rowVal, colVal):
+def mark_board_me_me(player_pos, board, rowVal, colVal):
     board[rowVal][colVal] = player_pos
 
 
@@ -137,7 +137,7 @@ def minimax(board, depth, alpha, beta, maximizing_player, player_val):
             if find_win(connect_value_global, board, player_val):
                 return (None, 100000)
             elif find_win(connect_value_global, board, 2 if player_val == 1 else 1):
-                return (None, -100000) # I set a negative value because the player has not won yet
+                return (None, -1) # I set a negative value because the player has not won yet
             else:
                 return (None, 0)
         else:
@@ -155,7 +155,7 @@ def minimax(board, depth, alpha, beta, maximizing_player, player_val):
                 
                 temp_board = board.copy() # This is creating a shallow copy og the game board to use in mark board
                 
-                mark_board(player_val, temp_board, row, col) # This is getting a new 
+                mark_board_me(player_val, temp_board, row, col) # This is getting a new 
                 
                 new_score = minimax(temp_board, depth - 1, alpha, beta, False, player_val)[1]
                 
@@ -182,7 +182,7 @@ def minimax(board, depth, alpha, beta, maximizing_player, player_val):
                 
             row = get_next_row(col, board)
             temp_board = board.copy() # This makes a shallow copy of the board
-            mark_board(2 if player_val == 1 else 1, temp_board, row, col)
+            mark_board_me(2 if player_val == 1 else 1, temp_board, row, col)
             
             new_score = minimax(temp_board, depth - 1, alpha, beta, True, player_val)[1]
             
@@ -215,7 +215,7 @@ for output in player:
             
             myRow = get_next_row(col, game_board)
             
-            mark_board(output, game_board, myRow, col)
+            mark_board_me(output, game_board, myRow, col)
             
             if find_win(connect_value_global, game_board, output):
                 
@@ -234,7 +234,7 @@ for output in player:
             
             myRow = get_next_row(col, game_board)
             
-            mark_board(output, game_board, myRow, col)
+            mark_board_me(output, game_board, myRow, col)
             
             if find_win(connect_value_global, game_board, output):
                 
