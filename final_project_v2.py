@@ -23,7 +23,8 @@ def find_win(connect_val: int, board, player_val):
     myNewRange = range(columns_global - connect_val + 1)
     
     # For this section: I used the following video to help with my understanding: 
-        # 
+        # https://www.youtube.com/watch?v=UYgyRArKDEs&list=PLFCB5Dp81iNV_inzM-R9AKkZZlePCZdtV&index=2
+    
     # HORIZONTAL CHECK
     for row in range(rows_global):
         for col in myNewRange:
