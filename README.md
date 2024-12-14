@@ -10,7 +10,7 @@ Software and hardware requirements
 **Hardware used:** Macbook Air; Chip: Apple M3; Memory: 8GB; Software Version on Macbook: Version 14.5 (Mac OS Sonoma)
 
 **Links to any data sources:** 
-Link to Video I used to help me build an outline for the Connect 4 game: https://www.youtube.com/watch?v=UYgyRArKDEs&list=PLFCB5Dp81iNV_inzM-R9AKkZZlePCZdtV
+Link to Video I used to help me build an outline for the Connect 4 game. 
 
 **Motivation for your project:**
 I used to play Connect 4 a lot. I wanted to mesh that with my Computer Science background in order to build a functioning game. 
