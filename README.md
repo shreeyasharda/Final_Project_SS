@@ -25,7 +25,7 @@ In regards to building the basic structure, I noticed that the number of columns
 
 In regards to the minimax function, 
 
-In regards to how big I was able to make the board, I went to 20 X 20 with a depth of 5 and the number of discs I am looking for is 6. 
+In regards to how big I was able to make the board, I went to 10 X 10 with a depth of 4 and the number of discs I am looking for is 6. 
 
-**How you measured your success (or failure):** I measured success if the game did not end in a tie and instead gave back a win for either of the players. 
+**How you measured your success (or failure):** I measured success if the game did not end in a tie and instead gave back a win for either of the players. I added files to the repo that show trial runs of the game running. You will see that if the game goes beyond
 
