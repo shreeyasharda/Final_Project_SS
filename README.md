@@ -27,5 +27,5 @@ In regards to the minimax function,
 
 In regards to how big I was able to make the board, I went to 10 X 10 with a depth of 4 and the number of discs I am looking for is 6. 
 
-**How you measured your success (or failure):** I measured success if the game did not end in a tie and instead gave back a win for either of the players. I added files to the repo that show trial runs of the game running. You will see that if the game goes beyond
+**How you measured your success (or failure):** I measured success if the game did not end in a tie and instead gave back a win for either of the players. I added files to the repo that show trial runs of the game running. You will see that if the game goes beyond 10 X 10, the file gets way too big to analyze and so it is best to not enlarge the game board any bigger than this and to just focus on changing the other variables instead. 
 
