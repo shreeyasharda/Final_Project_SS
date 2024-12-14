@@ -23,4 +23,9 @@ In this section, I will walk through 1) the basic structure of the game (while a
 
 In regards to building the basic structure, I noticed that the number of columns needs to be at least 7 and the number of rows needs to be at least 6. You need this in order to just test for a horizontal win (when the number of discs required for a win is 4). 
 
-**How you measured your success (or failure):** I measured success by the number of wins by the computer for each game board size. 
+In regards to the minimax function, 
+
+In regards to how big I was able to make the board, I went to 20 X 20 with a depth of 5 and the number of discs I am looking for is 6. 
+
+**How you measured your success (or failure):** I measured success if the game did not end in a tie and instead gave back a win for either of the players. 
+
